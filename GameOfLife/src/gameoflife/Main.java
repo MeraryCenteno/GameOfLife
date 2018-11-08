@@ -6,10 +6,16 @@
 package gameoflife;
 
 /**
+ *
  * @author Hansy Gonzalez
- * @author be_le
  */
-public class Celda {
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
     
-    private boolean Alive;
 }

@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gameoflife;
+package gameoflife.ModelAndObjects;
 
 /**
  * @author Hansy Gonzalez
  * @author be_le
  */
-public class GraphicInterface {
+public class Grid {
+    
+    private Celda celda[][];
+
     
 }

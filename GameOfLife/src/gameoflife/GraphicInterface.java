@@ -6,7 +6,7 @@
 package gameoflife;
 
 /**
- *
+ * @author Hansy Gonzalez
  * @author be_le
  */
 public class GraphicInterface {

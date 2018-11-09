@@ -5,10 +5,30 @@
  */
 package gameoflife.LogicAndControl;
 
+import gameoflife.ModelAndObjects.Celda;
+
 /**
  *
  * @author Hansy Gonzalez
  */
 public class GameRules {
-    
+
+    private static int generacionActual = 0;
+
+    public static void toNext(Celda[][] matriz) {
+
+    }
+
+    static void toCheck(Celda[][] matriz) {
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz.length; j++) {
+                if (i == 0 && j == 0) {
+                
+                    }
+                }
+
+            
+        }
+
+    }
 }

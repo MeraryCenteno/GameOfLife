@@ -11,23 +11,43 @@ package gameoflife.ModelAndObjects;
  */
 public class Celda {
     
-    private boolean Alive;
+    private Boolean Alive;
     private int cellsClose;
+    private Boolean nextGen;
 
     public Celda() {
     }
 
-    public Celda(boolean Alive) {
+    public Celda(Boolean Alive, int cellsClose, Boolean nextGen) {
         this.Alive = Alive;
+        this.cellsClose = cellsClose;
+        this.nextGen = nextGen;
     }
 
-    public boolean getAlive() {
+    public Boolean getAlive() {
         return Alive;
     }
 
-    public void setAlive(boolean Alive, int cellsClose) {
+    public void setAlive(Boolean Alive) {
         this.Alive = Alive;
+    }
+
+    public int getCellsClose() {
+        return cellsClose;
+    }
+
+    public void setCellsClose(int cellsClose) {
         this.cellsClose = cellsClose;
     }
+
+    public Boolean getNextGen() {
+        return nextGen;
+    }
+
+    public void setNextGen(Boolean nextGen) {
+        this.nextGen = nextGen;
+    }
+
+
 
 }

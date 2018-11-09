@@ -11,6 +11,6 @@ package gameoflife.ModelAndObjects;
  */
 public class Generation {
     
-    private String generacion;
+    private String[] generacion;
     
 }
